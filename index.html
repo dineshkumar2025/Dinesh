@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mobile Coding</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  
+    *{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+    }
+  .container{
+    color:red;
+    background-color:blue;
+    height:100vh;
+    width:100vw;
+  }
+  .header{
+    width:100vw;
+    height:20vh;
+    background-color: coral;
+    position:relative;
+  }
+  .main-body{
+    height:70vh;
+    width:100vw;
+    background-color:cyan;
+  }
+  .footer{
+    height:10vh;
+    width:100vw;
+    background-color:pink;
+    text-align:center;
+    color:black;
+  }
+  #search{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    outline: none;
+    height:40px;
+    border-radius:10px;
+    width:80%;
+    border:2px solid orange;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="header">
+      <input type="text" name="search" id="search">
+    </div>
+    <div class="main-body">
+      
+    </div>
+    <div class="footer">
+      <h1>Developed By DK</h1>
+      <h2>Markated By GK</h2>
+    </div>
+    
+    
+    
+  </div>
+  
+  
+  
+ 
+<script type="text/javascript" charset="utf-8">
+  var text = document.querySelector('#search');
+  console.log(text);
+</script>
+</body>
+</html>
